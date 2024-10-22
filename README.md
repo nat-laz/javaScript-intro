@@ -13,7 +13,7 @@
   <body>
   <h1 id="heading">Hello, World!</h1>
 
-  <!-- Embedding JavaScript directly into HTML -->
+  /* Embedding JavaScript directly into HTML */
   <script>
     document.getElementById("heading").style.color = "blue";
   </script>
@@ -28,7 +28,7 @@ or included as separate .js files:
 <body>
   <h1 id="heading">Hello, World!</h1>
 
-  <!-- Link to an external JavaScript file -->
+  /* Link to an external JavaScript file */
   <script src="app.js"></script>
 </body>
 ```

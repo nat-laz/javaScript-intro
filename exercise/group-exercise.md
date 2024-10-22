@@ -20,7 +20,7 @@ In this activity, you’ll extend the task list we worked on together by adding 
 Example of Final Result:
 
 <div align="center">
-  <img src="./assets/result.png" alt="result" width="300"></div>
+  <img src="../assets/result.png" alt="result" width="300"></div>
 
 
 ### Hints:

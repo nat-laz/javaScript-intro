@@ -1,14 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intro-Dom </title>
-</head>
-<body>
-    <h1>Welcome to the JavaScript world</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro-Dom</title>
+  </head>
+  <body>
+    <h1 id="title">Welcome to the JavaScript world</h1>
+
+    <button id="changeTitle">Change Title</button>
     <script>
-        console.log(document)
+      // === Structure ===
+      console.log(document);
+      //console.log(document.documentElement);
+
+      // === Get & Style ===
+    //   document.body.style.backgroundColor = "black";
+    //   document.getElementById("title").style.color = "white";
+
+      // === Change Content ===
+      let title = document.getElementById("title");
+      let button = document.getElementById("changeTitle");
+
+      button.addEventListener("click", function () {
+        title.textContent = "I'm a brand new title!";
+      });
+
+      // === Create Element ===
+      let newParagraph = document.createElement("p");
+      newParagraph.textContent = "This is a new paragraph";
+      document.body.appendChild(newParagraph);
+
+      // === Create & insert product elements ===
+      let container = document.createElement("div");
+
+      container.innerHTML = `
+              <h4>Product Name</h4>
+              <p>Product description goes here.</p>
+              `;
+      document.body.appendChild(container);
     </script>
-</body>
+  </body>
 </html>
