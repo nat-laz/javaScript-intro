@@ -28,4 +28,4 @@ Example of Final Result:
 - You’ll need to create a new ```<button>``` element for each task added.
 - Use ```appendChild() ```to attach the ```Remove``` button to the task.
 - Use ```removeChild()``` to delete the task from the list when the button is clicked.
-- Don’t forget to attach the event listener to the remove button after it’s created!
+- Don’t forget to attach the event listener to the remove but`ton after it’s created!
